@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="image/logo.png" />
+<title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="spotify.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="option">
+            <div class="lib-option nav-option">
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">it's easy,we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box1">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">we'll keep your updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <i class="fa-solid fa-less-than"></i>
+            <i class="fa-solid fa-greater-than" class="hide"></i>
+          </div>
+          <div class="sticky-nav-option">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark">
+              <i class="fa-solid fa-download"></i>Install App
+            </button>
+            <i class="fa-solid fa-user nav-item"></i>
+            <i class="fa-solid fa-bell"></i>
+          </div>
+        </div>
+        <h2>Recently Played</h2>
+        <div class="card-continer">
+          <div class="card">
+            <img src="image/main-song.jpg" class="card-image" />
+            <p class="card-title">Top 50-Global</p>
+            <p class="card-info">your daily updates the most played...</p>
+          </div>
+        </div>
+        <h2>Trending now near you</h2>
+        <div class="cards">
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song.jpg" class="card-image" />
+              <p class="card-title">NO WAY &<br />(FULL SONG)</p>
+              <p class="card-info">| SATRAJ S7 FT | HARSH LIKHARI |</p>
+            </div>
+          </div>
+
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song1.jpg" class="card-image" />
+              <p class="card-title">STEN GUN & (FULL SONG)</p>
+              <p class="card-info">| Remeo | Bunty Bains | The Song |</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song2.jpg" class="card-image" height="215px" />
+              <p class="card-title">BAARISH & YAARIYAN</p>
+              <p class="card-info">|himansh Kohli, Raku Preet |</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song3.jpg" class="card-image" height="215px" />
+              <p class="card-title">KAUN TUJHE | (FULL SONG)</p>
+              <p class="card-info">| M.S. DHONI-THE UNTOLD STORY |</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song4.jpg" class="card-image" height="215px" />
+              <p class="card-title">TERE KHAYALO & MEIN |</p>
+              <p class="card-info">| SHINEY AHUJA, AKSHAY KUMAR|</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song5.jpg" class="card-image" height="215px" />
+              <p class="card-title">| AE DIL HAI MUSKHIL |</p>
+              <p class="card-info">ANUSHKA,RANBIR & AISHWARYA</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song6.jpg" class="card-image" height="215px" 1 />
+              <p class="card-title">PEHLA NASA</p>
+              <p class="card-info">|Sadhan sargam & Udit Narayna |</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song8.jpg" class="card-image" height="215px" />
+              <p class="card-title">| KASAM SE KASAM SE |</p>
+              <p class="card-info">Akshay and karishma song</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song7.jpg" class="card-image" height="215px" />
+              <p class="card-title">LUKKA CHUPPI</p>
+              <p class="card-info">Kartik aaryan Kriti sanon |Akhil |</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/song9.jpg" class="card-image" height="215px" />
+              <p class="card-title">| BOLLYWOOD LOVE STORY |</p>
+              <p class="card-info">Bollywood Love Story & Romance</p>
+            </div>
+          </div>
+        </div>
+        <h2>Features Charts</h2>
+        <div class="cards">
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top.jpg" class="card-image" />
+              <p class="card-title">TOP SONGS GERMANY...</p>
+              <p class="card-info">Top Songs of Germany most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top1.jpg" class="card-image" />
+              <p class="card-title">TOP SONGS SOUTH KOREA</p>
+              <p class="card-info">Top Songs of South korea most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top2.jpg" class="card-image" />
+              <p class="card-title">TOP SONGS NIGERIA...</p>
+              <p class="card-info">Top Songs of nigeria most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top3.jpg" class="card-image" />
+              <p class="card-title">TOP SONGS COLOMBIA...</p>
+              <p class="card-info">Top Songs of colombia most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/to4.jpg" class="card-image" />
+              <p class="card-title">TOP SONGS MEXICO...</p>
+              <p class="card-info">Top Songs of mexico most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top5.jpg" class="card-image" />
+              <p class="card-title">TOP SONGS SPAIN...</p>
+              <p class="card-info">Top Songs of spain most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top6.jpg" class="card-image" />
+              <p class="card-title">Top SONGS INDIA...</p>
+              <p class="card-info">Top Songs of india most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top7.jpg" class="card-image" />
+              <p class="card-title">TOP SONGS SPAIN...</p>
+              <p class="card-info">Top Songs of spain most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top8.jpg" class="card-image" />
+              <p class="card-title">Top SONGS UKRAINE</p>
+              <p class="card-info">Top Songs of ukarine most played...</p>
+            </div>
+          </div>
+          <div class="card-continer">
+            <div class="card">
+              <img src="image/top9.jpg" class="card-image" />
+              <p class="card-title">ToP SONGS BELGIUM</p>
+              <p class="card-info">Top Songs of belgium most played...</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music-player">
+        <div class="album">
+          <img src="image/saiyaara.jpeg" class="album-main-img" />
+          <div class="song-info">
+            <p>Saiyaara | from Saiyaara |</p>
+            <p>Tanishk bagchi | Faheem Abdullah</p>
+          </div>
+        </div>
+        <div class="player">
+          <div class="player-control">
+            <img
+              src="image/mid1.png"
+              class="player-control-icon player-control-next"
+            />
+            <img
+              src="image/back-mid.png"
+              class="player-control-icon player-control-next"
+            />
+            <img
+              src="image/player-mid.png"
+              class="player-control-icon"
+              style="opacity: 1; height: 2rem"
+            />
+            <img
+              src="image/next-mid.png"
+              class="player-control-icon player-control-next"
+            />
+            <img
+              src="image/mid-last.png"
+              class="player-control-icon player-control-next"
+            />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              step="1"
+              class="progress-bar"
+            />
+            <span class="total-time">3:30</span>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="controls-icon">
+            <img src="image/play-last1.png" />
+            <img src="image/play-last2.png" />
+            <img src="image/play-last3.png" />
+            <img src="image/play-last4.png" />
+            <input type="range" min="0" max="100" />
+            <img src="image/play-last5.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
